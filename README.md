@@ -1,5 +1,5 @@
 # 🌍 Global Terrorism Trend Analysis (1970–2017)
-## 📌 Project Overview
+## Project Overview
 
 This project analyzes over 180,000 global terrorist incidents from **1970 to 2017** to identify trends, patterns, and changes in the **scale and frequency of attacks** over time. Using data from the **Global Terrorism Database (GTD)**, we examine incident severity, apply **categorical classification**, and build **scatter plots and linear regression models** to understand how terrorism has evolved.
 
@@ -10,7 +10,6 @@ To explore, categorize, and visualize terrorist incidents using historical data 
 - Understand global shifts in terrorism patterns  
 - Use **linear regression** to project escalation or decline in attacks over time
 
----
 ## 📊 Dataset Description
 
 - **Source:** Kaggle (originally compiled by START, University of Maryland)
@@ -20,8 +19,6 @@ To explore, categorize, and visualize terrorist incidents using historical data 
   - Date, Year, Country, Region, City  
   - Attack Type, Target Type, Weapon Type  
   - Casualties, Coordinates, Motive, Perpetrator group
-
----
 
 ## 🧹 Data Preprocessing
 
@@ -33,7 +30,6 @@ To explore, categorize, and visualize terrorist incidents using historical data 
 - Selected relevant columns: `iyear`, `attack_type`, `nkill`  
 - Cleaned dataset used for grouped visualizations and trend analysis
 
----
 
 ## 📈 Analysis Summary
 
@@ -56,7 +52,6 @@ To explore, categorize, and visualize terrorist incidents using historical data 
   - Major Attacks: +8.83 per year  
 - Total attacks: ~+180/year on average (overall linear coefficient)
 
----
 
 ## 🔍 Key Insights
 
@@ -65,8 +60,6 @@ To explore, categorize, and visualize terrorist incidents using historical data 
 - **Major attacks** showed fluctuation but also trended upward after 2000  
 - The dataset reflects how terrorism evolved in tactics, scale, and frequency over 5 decades
 
----
-
 ## 🛠 Tools Used
 
 - Python  
@@ -74,5 +67,3 @@ To explore, categorize, and visualize terrorist incidents using historical data 
 - Matplotlib  
 - Scikit-learn (`LinearRegression`)  
 - Jupyter Notebook
-
----
