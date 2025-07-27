@@ -1,10 +1,7 @@
 # 🌍 Global Terrorism Trend Analysis (1970–2017)
-
 ## 📌 Project Overview
 
 This project analyzes over 180,000 global terrorist incidents from **1970 to 2017** to identify trends, patterns, and changes in the **scale and frequency of attacks** over time. Using data from the **Global Terrorism Database (GTD)**, we examine incident severity, apply **categorical classification**, and build **scatter plots and linear regression models** to understand how terrorism has evolved.
-
----
 
 ## 🧠 Objective
 
